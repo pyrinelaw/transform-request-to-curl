@@ -7,13 +7,13 @@
 ```javascript
 const transformRequestToCurl = require('transform-request-to-curl');
 
-transformRequestToCurl('get', 'http://www.a.com', {username: 'lucy', age: 18}, {cookie: 'token=ShbJEXXhcyhg98o32_Sccc' });
+transformRequestToCurl('get', 'http://www.a.com', {username: 'lucy', age: 18}, {cookie: 'token=ShbJEhXhuuuhg98o12_CbBc' });
 
-// 返回：curl 'http://www.a.com?username=lucy&age=18' -H 'cookie: token=ShbJEXXhcyhg98o32_Sccc'
+// 返回：curl 'http://www.a.com?username=lucy&age=18' -H 'cookie: token=ShbJEhXhuuuhg98o12_CbBc'
 
-transformRequestToCurl('post', 'http://www.a.com', {username: 'lucy', age: 18}, {cookie: 'token=ShbJEXXhcyhg98o32_Sccc' });
+transformRequestToCurl('post', 'http://www.a.com', {username: 'lucy', age: 18}, {cookie: 'token=ShbJEhXhuuuhg98o12_CbBc' });
 
-// 返回：curl -X 'POST' 'http://www.a.com' -d 'username=lucy&age=18' -H 'cookie: token=ShbJEXXhcyhg98o32_Sccc'
+// 返回：curl -X 'POST' 'http://www.a.com' -d 'username=lucy&age=18' -H 'cookie: token=ShbJEhXhuuuhg98o12_CbBc'
 
 ```
 
