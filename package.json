@@ -1,0 +1,37 @@
+{
+    "name": "transform-request-to-curl",
+    "version": "0.0.1",
+    "description": "将请求装换为 curl 语句",
+    "main": "./src/index.js",
+    "author": "Pyrine.Law <petrus_law@yeah.net>",
+    "keywords": [
+        "curl",
+        "to-curl",
+        "request-to-curl",
+        "request-curl",
+        "request-to",
+        "transform-request-to-curl",
+        "transform-curl"
+    ],
+    "scripts": {
+        "test": "node ./test/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pyrinelaw/transform-request-to-curl"
+    },
+    "engines": {
+        "node" : ">=8.0.0"
+    },
+    "files": [
+        "src",
+        "test",
+        "Readme.md"
+    ],
+    "dependencies": {
+        "querystring": "^0.2.0"
+    },
+    "license": "MIT"
+}
+  
+  
