@@ -14,7 +14,6 @@ transformRequestToCurl('get', 'http://www.a.com', {username: 'lucy', age: 18}, {
 transformRequestToCurl('post', 'http://www.a.com', {username: 'lucy', age: 18}, {cookie: 'token=ShbJEhXhuuuhg98o12_CbBc' });
 
 // 返回：curl -X 'POST' 'http://www.a.com' -d 'username=lucy&age=18' -H 'cookie: token=ShbJEhXhuuuhg98o12_CbBc'
-
 ```
 
 ### 参数说明
